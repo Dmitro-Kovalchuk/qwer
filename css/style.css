@@ -1,0 +1,46 @@
+.title{
+    color: teal;
+}
+
+/* Універсальний */
+
+*{
+    box-sizing: border-box;
+}
+
+/* Селектор елемента (тега) */
+
+p {
+    color: blue;
+}
+#description {
+    color: gold;
+}
+
+/* Селектор класу */
+
+.description {
+    color: darkorchid;
+}
+
+/* Сектор атрибуту */
+
+
+.menu-item-link {
+    font-size: 20;
+    font-weight: 500;
+}
+
+.menu .menu-item-link {
+color: red;
+}
+
+.menu-secondary .menu-item-link {
+    color: teal;
+}
+
+/* Дочірній */
+
+.menu-item>.menu-item-link {
+    color: gold;
+}
